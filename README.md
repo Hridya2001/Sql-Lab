@@ -30,16 +30,9 @@ This repository contains a curated set of SQL practice scripts to help strengthe
 To run these scripts locally:
 1. Use any MySQL-compatible environment (MySQL CLI, Workbench, or DBeaver)
 2. Run the files in the following order:
-   - `schema/create_tables.sql`
+   - `schema/tables_setup.sql`
    - `data/insert_data.sql`
-   - Explore queries in the `queries/` folder
-
----
-
-## Author
-
-**Hridya Umesh**  
-[GitHub Profile →](https://github.com/Hridya2001)
+   - Explore queries in the `Queries/` folder
 
 ---
 
