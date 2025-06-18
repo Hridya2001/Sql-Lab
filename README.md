@@ -39,9 +39,7 @@ To run these scripts locally:
 ---
 ---
 
-##  Visual Output
-
-### Terminal Screenshots
+##  Visual Output : Terminal Screenshots
 
 
 ![Terminal 1](./Docs/terminal.png)
