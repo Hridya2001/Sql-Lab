@@ -45,5 +45,5 @@ To run these scripts locally:
 
 ---
 
-> 🛠 *Feel free to fork, explore, and suggest improvements to grow this lab together!*
+>  *Feel free to fork, explore, and suggest improvements to grow this lab together!*
 
