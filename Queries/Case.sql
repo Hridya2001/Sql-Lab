@@ -1,24 +1,7 @@
 -- Salary Level
-SELECT 
-    first_name,
-    salary,
-    CASE 
-        WHEN salary >= 90000 THEN 'High'
-        WHEN salary >= 75000 THEN 'Medium'
-        ELSE 'Low'
-    END AS salary_level
-FROM employees;
+select first_name, salary, case when salary >= 90000 then 'High' when salary >= 75000 then 'Medium' else 'low' end as salary_level from employees;
 
 
 -- Attendance status description
-SELECT 
-    e.first_name,
-    a.attendance_date,
-    a.status,
-    CASE 
-        WHEN a.status = 'Present' THEN 'Present'
-        WHEN a.status = 'Absent' THEN 'Absent'
-        WHEN a.status = 'Leave' THEN 'On Leave'
-    END AS status_note
-FROM attendance a
-JOIN employees e ON a.employee_id = e.employee_id;
+select  e.first_name, a.attendance_date, a.status, case when a.status = 'Present' then 'Present' when a.status = 'Absent' then 'Absent' when a.status = 'Leave' then 'On Leave' end as status_note 
+from attendance a join employees e on a.employee_id = e.employee_id;
