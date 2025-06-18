@@ -1,20 +1,20 @@
 -- (Count total number of employees)
-SELECT COUNT(*) AS total_employees FROM employees;
+select count(*) as total_employees from employees;
 
 -- (Total salary paid to all employees)
-SELECT SUM(salary) AS total_payroll FROM employees;
+select sum(salary) as total_payroll from employees;
 
 -- (Average salary)
-SELECT AVG(salary) AS average_salary FROM employees;
+select avg(salary) as average_salary from employees;
 
 -- (Lowest salary)
-SELECT MIN(salary) AS lowest_salary FROM employees;
+select min(salary) as lowest_salary from employees;
 
 -- (Highest salary)
-SELECT MAX(salary) AS highest_salary FROM employees;
+select max(salary) as highest_salary from  employees;
 
 -- (Total salary by department)
-SELECT department_id, SUM(salary) AS dept_salary
-FROM employees
-GROUP BY department_id;
+select department_id, sum(salary) as dept_salary
+from employees
+group by department_id;
 
