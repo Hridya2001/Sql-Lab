@@ -37,6 +37,20 @@ To run these scripts locally:
    - Explore queries in the [`Queries/`](./Queries) folder
 
 ---
+---
+
+##  Visual Output
+
+### Terminal Screenshots
+
+
+![Terminal 1](./Docs/terminal.png)
+
+![Terminal 2](./Docs/terminal2.png)
+
+![Terminal 3](./Docs/terminal3.png)
+
+![Terminal 4](./Docs/terminal4.png)
 
 ##  Author
 
