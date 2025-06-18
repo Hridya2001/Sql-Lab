@@ -1,4 +1,4 @@
--- Add ₹5000 bonus to each employee's salary
+-- 1. Add ₹5000 bonus to each employee's salary
 SELECT 
     first_name,
     salary,
@@ -6,7 +6,7 @@ SELECT
 FROM employees;
 
 
--- Deduct ₹2000 from each employee's salary
+-- 2. Deduct ₹2000 from each employee's salary
 SELECT 
     first_name,
     salary,
@@ -14,7 +14,7 @@ SELECT
 FROM employees;
 
 
--- Calculate annual salary assuming salary is monthly
+-- 3, Calculate annual salary assuming salary is monthly
 SELECT 
     first_name,
     salary,
@@ -22,7 +22,7 @@ SELECT
 FROM employees;
 
 
--- Divide salary by 2 (maybe to calculate part-time pay)
+-- 4. Divide salary by 2 (maybe to calculate part-time pay)
 SELECT 
     first_name,
     salary,
@@ -30,7 +30,7 @@ SELECT
 FROM employees;
 
 
--- Find employees whose salary is an exact multiple of ₹10000
+-- 5. Find employees whose salary is an exact multiple of ₹10000
 SELECT 
     first_name,
     salary
